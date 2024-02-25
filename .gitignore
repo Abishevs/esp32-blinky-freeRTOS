@@ -1,0 +1,37 @@
+# Ignore build output
+build/
+
+.cache
+
+# Ignore Python bytecodes
+__pycache__/
+*.py[cod]
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Ignore configuration files that may contain sensitive information
+sdkconfig
+sdkconfig.old
+
+# Ignore Eclipse project files
+.settings/
+.project
+.cproject
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore Node.js modules folder
+node_modules/
+
+# Ignore ESP-IDF project configuration overrides
+sdkconfig.defaults
+
