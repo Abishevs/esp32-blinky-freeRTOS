@@ -4,7 +4,11 @@
 # A simple example use of freeRTOS on esp32 board.
 Two tasks are created. One listens to button press and changes the system state.
 Other task changes led behaviour based on system state.
-![](assets/video.gif)
+
+
+https://github.com/Abishevs/esp32-blinky-freeRTOS/assets/99913069/9c39baac-213d-45e5-87bb-ca519e28b5c3
+
+
 ![](assets/photo.jpg)
 
 ## IMPORTANT
