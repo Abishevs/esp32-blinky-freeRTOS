@@ -3,7 +3,7 @@
 
 # A simple example use of freeRTOS on esp32 board.
 Two tasks are created. One listens to button press and changes the system state.
-Other task changes led behaviour based on system state.
+Other task changes LEDs behaviour based on system state.
 
 
 https://github.com/Abishevs/esp32-blinky-freeRTOS/assets/99913069/9c39baac-213d-45e5-87bb-ca519e28b5c3
@@ -28,7 +28,7 @@ might take a long time, depending on system resources).
 Find the serial port of ESP32* board. 
 (user might need to add $USER to uucp group):
 ```bash
-sudo usermod -aG uucp $USER]).
+sudo usermod -aG uucp $USER
 ```
 Where PORT is e.g. /dev/ttyUSB0, if only one serial device is plugged then it is
 the USB0.
